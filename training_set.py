@@ -9,7 +9,7 @@ training_set = [
   {"title":"What are some tips so that I [32 M] can help handle my girlfriend of 2 years [32 F] finances, while avoiding coming across as a controlling jerk", "poster":{"age":"32", "gender":"M"}, "counterpart":{"age":"32", "gender":"F", "relationship":"girlfriend"}},
   {"title":"My (41f) partner (41m) constantly blames me for everything and my life has become a nightmare", "poster":{"age":"41", "gender":"F"}, "counterpart":{"age":"41", "gender":"M", "relationship":"partner"}},
   {"title":"I [18 M] have been dating my gf [18 F] for a month, and I want to build our personal relationship more, rather than our physical relationship", "poster":{"age":"18", "gender":"M"}, "counterpart":{"age":"18", "gender":"F", "relationship":"gf"}},
-  {"title":"Me (24) with GF (25) - How to deal with lack of attraction", "poster":{"age":"24", "gender":""}, "counterpart":{"age":"25", "gender":"", "relationship":"gf"}},
+  {"title":"Me (24) with GF (25) - How to deal with lack of attraction", "poster":{"age":"24", "gender":""}, "counterpart":{"age":"25", "gender":"F", "relationship":"gf"}},
   {"title":"I (25M) inherently want unhealthy relationship, any way to channel this into something positive?", "poster":{"age":"25", "gender":"M"}, "counterpart":{"age":"", "gender":"", "relationship":""}},
   {"title":"I [17M] have no idea how to have a conversation with someone unless its a group convo", "poster":{"age":"17", "gender":"M"}, "counterpart":{"age":"", "gender":"", "relationship":""}},
   {"title":"I (30F) am pretty sure I freaked out this guy (30M) I've been dating for 3 months with a fantasy I spoke of", "poster":{"age":"30", "gender":"F"}, "counterpart":{"age":"30", "gender":"M", "relationship":"guy"}},
