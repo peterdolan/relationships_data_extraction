@@ -2,11 +2,11 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 
-data = pd.read_csv(filepath_or_buffer="/Users/peterdolan/Engineering/reddit/relationship_data.csv")
+data = pd.read_csv(filepath_or_buffer="/Users/peterdolan/Engineering/reddit/small_relationship_data.csv")
 
 def get_distribution():
   plt.figure()
-  data["relationship"].hist(bins = 100, range=[0,100]).plot()
+  data["post_gen"].hist(bins = 100, range=[0,100]).plot()
   plt.savefig("temp.png")
 
 def get_gender_stats():
@@ -23,4 +23,9 @@ def get_correlation():
   print ('hi')
   print (corr)
 
-get_gender_stats()
+def get_word_breakdown():
+  
+  s_corr = data["title"].str.get_dummies(sep=' ').corrwith(data.score/data.score.max())
+  print (s_corr)
+
+get_distribution()
